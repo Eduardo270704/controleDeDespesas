@@ -79,3 +79,15 @@ button.delete {
   cursor: pointer;
   border-radius: 4px;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input-error {
+  border: 1px solid red;
+}

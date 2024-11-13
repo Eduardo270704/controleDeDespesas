@@ -11,8 +11,11 @@
       <h1>Controle de Despesas</h1>
       <div class="expense-form">
         <input type="text" id="description" placeholder="Descrição" />
+        <span class="error" id="description-error"></span>
         <input type="number" id="amount" placeholder="Valor" />
+        <span class="error" id="amount-error"></span>
         <input type="date" id="date" />
+        <span class="error" id="date-error"></span>
         <button id="add-expense">Cadastrar Despesa</button>
       </div>
       <h2 id="total-expenses">Total das Despesas: R$0,00</h2>
